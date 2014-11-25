@@ -1,0 +1,94 @@
+@media print {
+
+.logo {
+	text-align: left;
+}
+.logo a {
+	background: transparent;
+}
+.logo img {
+	display: block;
+}
+
+/* Avoid bleeding over pages */
+h2, h3 {
+	page-break-after: avoid;
+}
+
+/* Hidden elements */
+.skip,
+.logo img,
+.search-form,
+.categories,
+.save-search,
+.sort,
+.search-results .map .button,
+.pagination,
+.related {
+	display: none;
+}
+
+.search-results .best-bet {
+	padding-right: 8px;
+	padding-left: 8px;
+	box-shadow: none;
+	border-radius: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+}
+.search-results .map {
+	float: right;
+	max-width: 235px;
+}
+
+.results {
+	font-size: 1.3em;
+}
+.results .visually-hidden {
+	position: static;
+	overflow: auto;
+	clip: auto;
+	margin: 0;
+	width: auto;
+	height: auto;
+}
+.results em {
+	font-weight: 700;
+	font-style: normal;
+}
+.search-results li {
+	page-break-inside: avoid;
+}
+.search-results .file h3:before {
+	display: block;
+	margin: 0 5px 0 0;
+	width: auto;
+	height: auto;
+	background: none;
+	font-size: .6em;
+	font-weight: 700;
+}
+.search-results .pdf h3:before {
+	content: "[PDF] ";
+}
+.search-results .text h3:before {
+	content: "[DOC]";
+}
+.search-results .presentation h3:before {
+	content: "[PPT]";
+}
+.search-results .excel h3:before {
+	content: "[XLS]";
+}
+.search-results .video h3:before {
+	content: "[Video]";
+}
+.search-results a:after {
+	display: block;
+	content: " "attr(href)" ";
+	font-weight: normal;
+	font-size: .5em;
+}
+
+}

@@ -1,0 +1,44 @@
+.boxes .box {
+	float: left;
+	margin: 0 2% 0 0;
+	width: 48%;
+	/* TODO */
+}
+
+.nav-help {
+	float: right;
+	margin-top: 16px;
+}
+
+.logo a {
+	background: url(../img/fb-logo.png);
+	width: 294px;
+	height: 60px;
+}
+.search-form button:before {
+	background: url(../img/sprite.png) 0 -174px no-repeat;
+}
+.filter-group button[type=reset] {
+	background: transparent url(../img/sprite.svg) 0 -130px no-repeat;
+}
+.filter:after {
+	background-image: url(../img/sprite.png);
+}
+.save-search:before {
+	background-image: url(../img/sprite.png);
+}
+.pagination a:after {
+	background-image: url(../img/sprite.png);
+}
+.search-results .file h3:before {
+	background-image: url(../img/sprite.svg);
+}
+
+/* Sort */
+.sort {
+	float: right;
+	margin: 2px 0 0;
+}
+.sort li {
+	margin: 0 0 0 10px;
+}

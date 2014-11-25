@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8">
+	<title>Sök - Västra Götalandsregionen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css"><![endif]-->
+</head>
+<body>
+	<a class="skip" href="#main">Hoppa till huvudinnehållet</a>
+	<div class="header group" role="banner">
+		<div class="logo">
+			<a href="start.html"><img src="img/logo.png" width="220" height="45" alt="Västra Götalandsregionen"></a>
+		</div>
+		<h1 class="visually-hidden">Sök hos VGR</h1>
+		<div class="search-form">
+			<form id="search-form" action="/search.html" role="search">
+				<label class="visually-hidden" for="search">Sök</label>
+				<input type="search" id="search" placeholder="Sök">
+				<button type="submit"><span class="visually-hidden">Sök</span></button>
+			</form>
+			<nav class="nav-help" role="navigation" aria-labelledby="nav-help">
+				<h2 class="visually-hidden" id="nav-help">Hjälplänkar</h2>
+				<ul>
+					<li data-active><a href="/search-features.html">Hjälp</a></li>
+					<li><a href="/feedback.html">Synpunkter</a></li>
+					<li><a href="/saved-searches.html">Sparade sökningar</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="main" class="wrapper" role="main">
+
+		<h1>Hjälp</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus eros vel nisl dapibus, id ullamcorper dui accumsan. Quisque vestibulum egestas nunc in interdum. Duis non turpis vitae purus vehicula dignissim eget vitae massa. Cras odio odio, dignissim sit amet pulvinar quis, condimentum et elit. Mauris malesuada quam porta dignissim laoreet. Ut suscipit id mauris nec elementum. Mauris ultrices tristique mauris eget tempus. Sed ornare id turpis ut congue. Sed sit amet elementum libero, non consequat mauris. Quisque vel diam justo. Praesent eu lacinia sem. Aenean tincidunt, massa at consequat volutpat, velit est vestibulum sapien, sit amet vestibulum magna lectus non lacus. Ut condimentum in purus eu euismod. Vivamus fermentum ac neque a vestibulum. Quisque suscipit neque sit amet sodales hendrerit. Suspendisse vel elit a felis tincidunt consequat.</p>
+		<p>Nunc posuere dictum dolor sed lacinia. Integer bibendum neque vel massa faucibus semper. Donec ornare ante et eleifend imperdiet. Curabitur feugiat cursus turpis sed porttitor. Ut luctus scelerisque erat vehicula cursus. Morbi varius lectus nec fermentum consequat. Proin ornare arcu nisl, eget porttitor leo dictum quis. Etiam ac mauris dui. Sed egestas leo facilisis metus dignissim, at condimentum nulla commodo. Vestibulum accumsan nibh dapibus semper porta. Vivamus ac consequat lacus, volutpat lacinia ante. In eget ultrices turpis. Mauris pretium maximus arcu, ut consequat neque aliquam semper. Vestibulum blandit dui tellus, a commodo ligula venenatis nec.</p>
+		<p>Donec in augue vitae risus aliquam lacinia sit amet ullamcorper metus. Duis vel eros varius, commodo nunc at, viverra nisi. Sed vestibulum lacus nunc, vitae gravida arcu tincidunt vel. Vivamus in purus eget nisi accumsan posuere sed sed diam. Vestibulum ut mollis lorem. Sed fringilla quis nisl id porttitor. Fusce et felis ex. Etiam pellentesque ante quis ipsum sollicitudin fermentum. Proin at enim a est fermentum lacinia ut non ante. Praesent bibendum, metus ac viverra vehicula, arcu nisi accumsan ligula, ut sodales eros mauris sed odio. Fusce blandit massa ornare sem semper, in sagittis leo facilisis. Suspendisse aliquet, turpis eget egestas tempus, nunc dolor sagittis nibh, elementum efficitur tortor leo eget sapien. Nullam varius iaculis felis, et pellentesque metus consequat et. Nulla nisl arcu, euismod ac aliquam ut, lacinia vel mauris.</p>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script>
+		var pkBaseURL = (("https:" == document.location.protocol) ? "" : "");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "/js/piwik.js' %3E%3C/script%3E"));
+		try {
+			var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", XXX);
+			piwikTracker.trackPageView();
+			piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	</script>
+</body>
+</html>
