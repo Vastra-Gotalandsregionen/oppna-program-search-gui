@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8">
+	<title>Sök - Västra Götalandsregionen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css"><![endif]-->
+</head>
+<body>
+	<a class="skip" href="#main">Hoppa till huvudinnehållet</a>
+	<div class="header group" role="banner">
+		<div class="logo">
+			<a href="start.html"><img src="img/logo.png" width="220" height="45" alt="Västra Götalandsregionen"></a>
+		</div>
+		<h1 class="visually-hidden">Sök hos VGR</h1>
+	</div>
+	<div id="main" class="wrapper" role="main">
+
+		<h1>Hittade du inte det du sökte efter?</h1>
+		<p>Hittade du inte det du letade efter kan du be om hjälp eller lämna synpunkter om sökfunktionen här.</p>
+		<form action="">
+			<fieldset>
+				<legend>Vad handlar ditt ärende om?</legend>
+				<p>Skriv vad du hoppades hitta och vilka sökord du använde.</p>
+				<label for="">Rubrik</label>
+				<input type="text">
+				<label for="">Beskriv ditt ärende och ge gärna exempel</label>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<label for=""><input type="checkbox"> Jag vill ha svar</label>
+
+				<fieldset>
+					<legend></legend>
+					<label for=""><input type="radio"> E-post</label>
+					<label for=""><input type="radio"> Telefon</label>
+					<label for="">Namn</label>
+					<input type="text">
+					<label for="">E-postadress</label>
+					<input type="email">
+				</fieldset>
+
+				<p>Du kan välja att bifoga en skärmdump, så vi kan se det du ser.</p>
+				<label for=""><input type="checkbox"> Jag vill bifoga en skärmdump</label>
+
+				<fieldset>
+					<ol>
+						<li>Öppna en ny flik I webbläsaren och gå till sidan du vill bifoga bild på.</li>
+						<li>Tryck på Print-screen/PrtSc i övre högra hörnet på tangentbordet.</li>
+						<li>Starta Microsoft Word och öppna Nytt dokument.</li>
+						<li>Klistra in skärmdumpen i worddokumentet (högerklicka och välj "Klistra in")</li>
+						<li>Spara dokumentet på datorn.</li>
+						<li>Bifoga dokumentet.</li>
+					</ol>
+				</fieldset>
+
+				<label for="">Dit</label>
+				<input type="text">
+			</fieldset>
+		</form>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script>
+		var pkBaseURL = (("https:" == document.location.protocol) ? "" : "");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "/js/piwik.js' %3E%3C/script%3E"));
+		try {
+			var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", XXX);
+			piwikTracker.trackPageView();
+			piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	</script>
+</body>
+</html>

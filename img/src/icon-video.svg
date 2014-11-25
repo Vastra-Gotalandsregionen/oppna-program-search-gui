@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="28px" viewBox="0 0 23 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-video" sketch:type="MSLayerGroup">
+            <path d="M23,28 L0,28 L0,0 L15,0 L17.6716614,2.67166138 L23,8 L23,28 Z" id="Paper" fill="#7B33AA" sketch:type="MSShapeGroup"></path>
+            <path d="M9,21 L9,12 L14,16.5 L9,21 Z" id="Play" fill-opacity="0.6" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <polygon id="Edge" fill="#49216E" sketch:type="MSShapeGroup" points="15.012858 0.00384521484 23.0132443 8.0022583 15.012858 8.0022583 "></polygon>
+        </g>
+    </g>
+</svg>

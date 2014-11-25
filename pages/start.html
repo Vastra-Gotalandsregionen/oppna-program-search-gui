@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8">
+	<title>Sök - Västra Götalandsregionen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css"><![endif]-->
+</head>
+<body>
+	<a class="skip" href="#main">Hoppa till huvudinnehållet</a>
+	<div class="header group" role="banner">
+		<div class="logo">
+			<a href="start.html"><img src="img/logo.png" width="220" height="45" alt="Västra Götalandsregionen"></a>
+		</div>
+		<h1 class="visually-hidden">Sök hos VGR</h1>
+		<div class="search-form">
+			<form id="search-form" action="/search.html" role="search">
+				<label class="visually-hidden" for="search">Sök</label>
+				<input type="search" id="search" placeholder="Sök">
+				<button type="submit"><span class="visually-hidden">Sök</span></button>
+			</form>
+			<nav class="nav-help" role="navigation" aria-labelledby="nav-help">
+				<h2 class="visually-hidden" id="nav-help">Hjälplänkar</h2>
+				<ul>
+					<li><a href="/search-features.html">Hjälp</a></li>
+					<li><a href="/feedback.html">Synpunkter</a></li>
+					<li><a href="/saved-searches.html">Sparade sökningar</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="main" class="wrapper" role="main">
+		<div class="box">
+			<h2>Introduktion av sökfunktionen</h2>
+			<div class="content">
+				<p>Läs om hur du använder sökfunktionen effektivt.</p>
+				<a href="/search-features.html" class="button">Starta introduktionen</a>
+			</div>
+		</div>
+		<div class="boxes group">
+			<div class="box">
+				<h2>Dina sparade sökningar</h2>
+				<ul>
+					<li>
+						<a href="/search-int.html">Influensa</a>
+						<a href="/" class="icon remove"><span class="visually-hidden">Ta bort sparad sökning</span></a>
+					</li>
+					<li>
+						<a href="/search-www.html">Västra Götalandsregionen</a>
+						<a href="/" class="icon remove"><span class="visually-hidden">Ta bort sparad sökning</span></a>
+					</li>
+					<li>
+						<a href="/search-doc.html">Matsedel</a>
+						<a href="/" class="icon remove"><span class="visually-hidden">Ta bort sparad sökning</span></a>
+					</li>
+					<li>
+						<a href="/">Evelyn</a>
+						<a href="/" class="icon remove"><span class="visually-hidden">Ta bort sparad sökning</span></a>
+					</li>
+					<li>
+						<a href="/">Heroma</a>
+						<a href="/" class="icon remove"><span class="visually-hidden">Ta bort sparad sökning</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="box">
+				<h2>Populära sökningar</h2>
+				<ul>
+					<li><a href="/">Influensa</a></li>
+					<li><a href="/">Terminalglasögon</a></li>
+					<li><a href="/">Karensdag</a></li>
+					<li><a href="/">Lediga jobb</a></li>
+					<li><a href="/">Regionkalendern</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script>
+		var pkBaseURL = (("https:" == document.location.protocol) ? "" : "");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "/js/piwik.js' %3E%3C/script%3E"));
+		try {
+			var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", XXX);
+			piwikTracker.trackPageView();
+			piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	</script>
+</body>
+</html>

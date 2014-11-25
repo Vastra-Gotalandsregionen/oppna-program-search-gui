@@ -1,0 +1,5 @@
+{
+	"assets": {
+		"extras": [ "favicon.ico", "temp/**", "sitemap.xml" ]
+	}
+}
