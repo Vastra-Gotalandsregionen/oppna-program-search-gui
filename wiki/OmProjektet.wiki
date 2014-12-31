@@ -1,0 +1,6 @@
+#summary Projektet genomfördes hösten 2014 för att ta fram ett modernare gränssnitt till VGR:s sökmotor.
+
+= Introduktion =
+Målet med projektet var att få ett mer användbart gränssnitt och sätta en målbild för sökgränssnittet för några år framöver. Kraven var bland annat att följa WCAG 2.0 AA, utgå från mobilanvändning först samt att ha stor prestandaoptimering.
+
+[http://vgr.dev.whitespace.se Klickbar sök-prototyp finns här]
