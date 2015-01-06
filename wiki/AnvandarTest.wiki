@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Rapport från test på användare
 #labels User-Test,Phase-Design,Phase-QA
 
 = Rapport från användarundersökning 12:e december, 2014 - nytt sökgränssnitt =
