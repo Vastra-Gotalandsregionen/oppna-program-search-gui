@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-cache": "^0.4.1",
     "gulp-concat": "^2.3.4",
     "gulp-csscss": "0.0.2",
     "gulp-csslint": "^0.1.5",
